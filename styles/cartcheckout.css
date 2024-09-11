@@ -58,6 +58,14 @@ body {
         font-size: 20px;
     }
 }
+@media (max-width:548px){
+  .center-content{
+    font-size: 20px;
+    flex: none;
+    width: 325px;
+}
+
+}
 .right-section-cart-header{
     text-align: right;
     width: 150px;
