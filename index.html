@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Site</title>
+
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Croissant+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/amazon-header.css">
+    <link rel="stylesheet" href="styles/products.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="amazon-header">
+        <div class="left-section">
+            <a href="index.html" class="logo-link header-link">
+                <img src="images/amazon-logo-white.png" class="amazon-logo" alt="">
+                <img src="images/amazon-mobile-logo-white.png" class="amazon-logo-mobile" alt="">
+            </a>
+        </div>
+
+
+        <div class="middle-section">
+            <input type="text" name="search" class="search-box" placeholder="Search">
+            <button class="search-button">
+                <img src="images/icons/search-icon.png" class="search-icon" alt="">
+            </button>
+        </div>
+
+        
+
+        
+
+        <div class="right-section">
+           
+            <!-- <a href="" class="returns-orders pc-menu header-link">
+                <span class="text-return">Returns</span><br>
+                <span class="text-orders">& Orders</span>
+            </a> -->
+
+            <a class="cart-link pc-menu header-link" href="checkout.html">
+                <img class="cart-icon" src="images/cart-icon.png" alt="Cart">
+                <div class="cart-quantity">0</div>
+                <div class="cart-text">Cart</div>
+            </a>
+            
+
+        </div>
+
+        <div class="mobile-menu">
+            <button class="toggle-option" ><img src="images/icons/hamburger-menu.png" class="toggle-button"></button>
+
+        </div>
+
+        
+
+       
+    </div>
+    <!-- Mobile dropdown header -->
+    <div class="mobile-section">
+            
+        <!-- <a href="" class="mobile-returns-orders pc-menu header-link">
+            <span class="mobile-text-return-orders">Returns & Orders</span>
+        </a> -->
+
+        <a class="mobile-cart-link pc-menu header-link" href="#">
+        <div class="mobile-cart-text">Cart <span class="mobile-quantity">(3)</span></div>
+        </a>
+
+    </div>
+
+
+    <!-- Products -->
+     <div class="products">
+        <div class="products-grid js-prods">             
+        </div>
+     </div>
+
+
+
+
+
+
+
+
+<script type="module" src="scripts/amazon.js"></script>
+
+</body>
+</html>

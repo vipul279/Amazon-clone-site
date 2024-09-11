@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Croissant+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/cartcheckout.css">
+</head> 
+<body>
+    
+    <div class="cart-header">
+        <div class="header-content">
+            <div class="left-section-cart-header">
+               <a href="index.html" class="checkout-header-link"> 
+                <img src="images/amazon-logo.png" class="laptop-icon" width="100px" alt="">
+                <img src="images/amazon-mobile-logo.png" class="mobile-icon" alt="">
+                </a>
+            </div>
+
+            <div class="center-content">
+                Checkout (<span id="totalitems" style="color: rgb(0,113,133);"><span class="checkoutquant"></span> items</span>)
+            </div>
+
+            <div class="right-section-cart-header">
+                <img src="images/icons/checkout-lock-icon.png" alt="">
+            </div>
+    
+        </div>
+    </div>
+
+
+    <div class="main">
+        <div class="review">
+            Review your order
+        </div>
+
+        <div class="checkout-grid">
+            <div class="cart-summary"></div>
+            <div class="payment-summary"></div>
+        </div>
+        <div class="empty-cart">
+            Your cart is Empty <br>
+            <a href="index.html" class="back-to-home">
+                <button class="view-products">View Products</button>
+            </a>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="scripts/checkout.js"></script>
+</body>
+</html>

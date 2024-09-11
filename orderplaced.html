@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Placed</title>
+    <link rel="stylesheet" href="styles/orderplaced.css">
+</head>
+<body>
+    <div class="ordersuccess">
+        <img src="images/orderplaced.png" class="success-image" alt="">
+        <p class="success-text">Order Placed Successfully</p>
+        <a href="index.html"><button class="shop-more">Shop More</button></a>
+    </div>
+
+
+    <script>
+        document.querySelector('.shop-more').addEventListener('click', () => {
+    localStorage.clear();
+    alert('Back to Home');
+});
+
+    </script>
+</body>
+</html>

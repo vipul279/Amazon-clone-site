@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ordersuccess {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.success-image {
+    width: 250px; /* Adjust the size as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.success-text {
+    font-size: 3.0em;
+    font-weight: 400;
+    color: #333; /* Adjust color as needed */
+    margin: 0;
+}
+.shop-more{
+    margin-top: 15px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(247,202,0);
+}
